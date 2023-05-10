@@ -91,7 +91,7 @@ export default function Home() {
 
       <div className='bg-[#5F59F7]'>
         {/* advantage */}
-      <div className='flex py-[50px] m-0 lg:py-[100px]'>
+      <div className='flex py-[50px] m-0 lg:py-[100px] lg:px-[96px]'>
         <div className='flex flex-col px-[40px]'>
           <h1 className='text-center font-bold text-lg text-white lg:text-5xl'>Advantage of implementing Colony in your property</h1>
           <div className='flex flex-row w-full mt-7 md:flex-col md:mt-[52px]'>
