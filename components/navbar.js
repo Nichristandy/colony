@@ -9,7 +9,7 @@ function Navbar(props){
         <nav  className={props.className}>
             {/* logo */}
             <div className="flex mx-auto md:hidden">
-                <img src="assets/logo-putih.svg" alt="logo"/>
+                <img src={props.img} alt="logo"/>
             </div>
             <Link href="/home">
             

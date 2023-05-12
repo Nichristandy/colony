@@ -11,7 +11,7 @@ export default function Home() {
       
       {/* hero */}
       <div className='flex flex-col relative mb-12 lg:mb-20'>
-        <Navbar className="flex flex-row z-10 align-middle mt-6 w-full md:px-6 md:w-full lg:px-12 text-white"/>
+        <Navbar className="flex flex-row z-10 align-middle mt-6 w-full md:px-6 md:w-full lg:px-12 text-white" img="assets/logo-putih.svg"/>
           {/* background */}
           <img className='absolute z-0 top-0 right-0 md:w-[566px] md:h-[312px] lg:w-auto lg:h-auto' src='assets/hero.png' alt='hero'/>
           <div className='flex flex-col w-[70%] mt-12 mx-4 md:mt-[150px] md:mx-12 lg:w-[80%] lg:px-12 lg:mt-[200px]'>
@@ -30,7 +30,7 @@ export default function Home() {
               established in 2022, we committed to be the answer for all your property management’s problems</p>
           </div>
         </div>
-        <div className="mt-10 md:w-[60%] lg:h-auto">
+        <div className="mt-10 mx-auto md:mx-0 w-[80%] md:w-[60%] lg:h-auto">
           <Video/>
         </div>
       </div>
