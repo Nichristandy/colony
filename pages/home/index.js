@@ -103,19 +103,19 @@ export default function Home() {
                 className="w-5 h-5 lg:w-auto lg:h-auto"
               />
               <Card
-                text="BUILD OPERATIONAL EFFICIENCY"
+                text="EASIER AND ACCURATE REPORTING"
                 src="assets/icon.svg"
                 alt ="icon"
                 className="w-5 h-5 lg:w-auto lg:h-auto"
               />
               <Card
-                text="BUILD OPERATIONAL EFFICIENCY"
+                text="KEEP ON TRACK WITH YOUR ASSETS"
                 src="assets/icon.svg"
                 alt ="icon"
                 className="w-5 h-5 lg:w-auto lg:h-auto"
               />
               <Card
-                text="BUILD OPERATIONAL EFFICIENCY"
+                text="SIMPLIFY YOUR ECOSYSTEM IN YOUR PROPERTY"
                 src="assets/icon.svg"
                 alt ="icon"
                 className="w-5 h-5 lg:w-auto lg:h-auto"
@@ -123,25 +123,25 @@ export default function Home() {
             </div>
             <div className='flex flex-col w-1/2 space-y-8 md:flex-row md:w-full md:space-y-0 md:space-x-8 md:mt-6'>
               <Card
-                text="BUILD OPERATIONAL EFFICIENCY"
+                text="FULLY INTEGRATED SYSTEM AUTOMATION"
                 src="assets/icon.svg"
                 alt ="icon"
                 className="w-5 h-5 lg:w-auto lg:h-auto"
               />
               <Card
-                text="BUILD OPERATIONAL EFFICIENCY"
+                text="IMPROVE PROPERTY MANAGEMENT"
                 src="assets/icon.svg"
                 alt ="icon"
                 className="w-5 h-5 lg:w-auto lg:h-auto"
               />
               <Card
-                text="BUILD OPERATIONAL EFFICIENCY"
+                text="CUSTOMIZE DASHBOARD BY YOUR NEEDS"
                 src="assets/icon.svg"
                 alt ="icon"
                 className="w-5 h-5 lg:w-auto lg:h-auto"
               />
               <Card
-                text="BUILD OPERATIONAL EFFICIENCY"
+                text="FULFILL ALL YOUR UNIT'S NEEDS"
                 src="assets/icon.svg"
                 alt ="icon"
                 className="w-5 h-5 lg:w-auto lg:h-auto"

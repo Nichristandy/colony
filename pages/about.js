@@ -89,7 +89,7 @@ export default function About(){
                         <div className='mb-2 lg:mb-5'>
                             <h1 className='text-white font-bold text-xs lg:text-2xl'>Customer-centric approach</h1>
                         </div>
-                        <p className='text-white text-xs lg:text-2xl'>Prepare your apartment starting from the number of towers, floors, units, to existing public facilities.</p>
+                        <p className='text-white text-xs lg:text-2xl'>we believe the  importance of delivering software products and services that meet the needs and expectations of customers, that's why we make it to be one of our priorities</p>
                     </div>
 
                 </div>

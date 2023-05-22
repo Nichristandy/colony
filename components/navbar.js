@@ -20,13 +20,13 @@ function Navbar(props){
             
             </Link>
 
-            <div className="hidden md:flex md:flex-row md:ml-[20px] md:space-x-8 lg:ml-[600px] lg:space-x-16">
+            <div className="hidden md:flex md:flex-row md:ml-[20px] md:space-x-8 lg:ml-[700px] lg:space-x-16">
                 <Link href="/about">
                     <p className="font-aeonik text-sm lg:text-lg">About Us</p>
                 </Link>
-                <div>
+                {/* <div>
                     <p className="font-aeonik text-sm lg:text-lg">Product</p>
-                </div>
+                </div> */}
             </div>
         </nav>
 
