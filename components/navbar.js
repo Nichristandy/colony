@@ -14,13 +14,13 @@ function Navbar(props){
             <Link href="/home">
             
             
-            <div classname="hidden md:flex">
-                <img className="hidden md:flex md:w-[100px] md:h-auto md:mr-[500px] lg:w-auto lg:h-auto"src="assets/logo-ungu.svg" alt="logo"/>
+            <div classname="hidden md:flex md:justify-end">
+                <img className="hidden md:flex md:w-[100px] md:h-auto md:mr-[400px] lg:w-auto lg:h-auto"src="assets/logo-ungu.svg" alt="logo"/>
             </div>
             
             </Link>
 
-            <div className="hidden md:flex md:flex-row md:ml-[20px] md:space-x-8 lg:ml-[600px]">
+            <div className="hidden md:flex md:flex-row md:justify-start md:ml-[20px] md:space-x-8 lg:ml-[600px] lg:space-x-16">
                 <Link href="/about">
                     <p className="font-aeonik text-sm lg:text-lg">About Us</p>
                 </Link>
