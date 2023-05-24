@@ -14,10 +14,10 @@ export default function Home() {
         <Navbar className="flex flex-row z-10 align-middle mt-6 w-full md:px-6 md:w-full lg:px-12 text-white" img="assets/logo-putih.svg"/>
           {/* background */}
           <img className='absolute z-0 top-0 right-0 md:w-[566px] md:h-[312px] lg:w-auto lg:h-auto' src='assets/hero.png' alt='hero'/>
-          <div className='flex flex-col w-[70%] mt-12 mx-4 md:mt-[150px] md:mx-12 lg:w-[80%] lg:px-12 lg:mt-[200px]'>
+          <div className='flex flex-col w-[70%] mt-12 mx-4 md:mt-[150px] md:mx-12 lg:w-[70%]] lg:px-12 lg:mt-[200px]'>
               <h1 className='font-aeonik font-bold text-lg leading-5 md:text-[24px] md:w-[70%] md:leading-7 lg:text-[48px] lg:leading-10 lg:px'>Streamlined Platform for Your Convenient Property Management</h1>
               <div className='mt-2 md:mt-4'>
-                <Button className="flex justify-center bg-gradient-to-r from-[#5F59F7] to-[#2620A9] py-2 px-1 w-4/12 rounded-md md:w-2/12 lg:w-[10%]"/>
+                <Button className="flex justify-center bg-gradient-to-r from-[#5F59F7] to-[#2620A9] py-2 px-1 w-4/12 rounded-md md:w-2/12 lg:w-[122px]"/>
               </div>
           </div>
       </div>
