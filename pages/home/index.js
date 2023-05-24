@@ -98,53 +98,53 @@ export default function Home() {
             <div className='flex flex-col w-1/2 space-y-8 md:flex-row md:w-full md:space-y-0 md:space-x-8'>
               <Card
                 text="BUILD OPERATIONAL EFFICIENCY"
-                src="assets/icon.svg"
+                src="assets/efficient.png"
                 alt ="icon"
-                className="w-5 h-5 lg:w-auto lg:h-auto"
+                className="w-auto h-5 lg:w-[81px] lg:h-auto"
               />
               <Card
                 text="EASIER AND ACCURATE REPORTING"
-                src="assets/icon.svg"
+                src="assets/accurate.png"
                 alt ="icon"
-                className="w-5 h-5 lg:w-auto lg:h-auto"
+                className="w-auto h-5 lg:w-[81px] lg:h-auto"
               />
               <Card
                 text="KEEP ON TRACK WITH YOUR ASSETS"
-                src="assets/icon.svg"
+                src="assets/keep-on-track.png"
                 alt ="icon"
-                className="w-5 h-5 lg:w-auto lg:h-auto"
+                className="w-auto h-5 lg:w-[81px] lg:h-[81px]"
               />
               <Card
                 text="SIMPLIFY YOUR ECOSYSTEM IN YOUR PROPERTY"
-                src="assets/icon.svg"
+                src="assets/ecosystem.png"
                 alt ="icon"
-                className="w-5 h-5 lg:w-auto lg:h-auto"
+                className="w-auto h-5 lg:w-[81px] lg:h-auto"
               />
             </div>
             <div className='flex flex-col w-1/2 space-y-8 md:flex-row md:w-full md:space-y-0 md:space-x-8 md:mt-6'>
               <Card
                 text="FULLY INTEGRATED SYSTEM AUTOMATION"
-                src="assets/icon.svg"
+                src="assets/integrated.png"
                 alt ="icon"
-                className="w-5 h-5 lg:w-auto lg:h-auto"
+                className="w-auto h-5 lg:w-[81px] lg:h-[81px]"
               />
               <Card
                 text="IMPROVE PROPERTY MANAGEMENT"
-                src="assets/icon.svg"
+                src="assets/improve_1.png"
                 alt ="icon"
-                className="w-5 h-5 lg:w-auto lg:h-auto"
+                className="w-auto h-5 lg:w-[81px] lg:h-[81px]"
               />
               <Card
                 text="CUSTOMIZE DASHBOARD BY YOUR NEEDS"
-                src="assets/icon.svg"
+                src="assets/customize.png"
                 alt ="icon"
-                className="w-5 h-5 lg:w-auto lg:h-auto"
+                className="w-auto h-5 lg:w-[81px] lg:h-auto"
               />
               <Card
                 text="FULFILL ALL YOUR UNIT'S NEEDS"
-                src="assets/icon.svg"
+                src="assets/needs.png"
                 alt ="icon"
-                className="w-5 h-5 lg:w-auto lg:h-auto"
+                className="w-auto h-5 mt-[17px] md:mt-0 lg:w-[81px] lg:h-[81px]"
               />
             </div>
           </div>

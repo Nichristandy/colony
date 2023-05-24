@@ -24,6 +24,7 @@ const Video = () =>{
           <button
             className="bg-gray-900 text-white rounded-full p-4 shadow-lg"
             onClick={togglePlay}
+            onPlay={() => setIsPlaying(true)}
           >
             <svg className="h-6 w-6" viewBox="0 0 24 24">
               <path

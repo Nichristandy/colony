@@ -57,7 +57,7 @@ export default function About(){
             <div className='flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-[31px] lg:space-x-[34px] lg:w-[100%] mt-6 self-center'>
                 <div className='bg-[#524BFC] flex flex-col px-3 py-6 justify-items-center md:px-3 md:py-[24px]   lg:px-8 lg:py-12 md:w-4/12 rounded-[20px]'>
                     <div>
-                        <img className='w-[69px] h-[69px] lg:w-auto lg:h-auto' src='assets/values.svg'/>
+                        <img className='w-auto h-[69px] lg:w-auto lg:h-[139px]' src='assets/technology.png'/>
                     </div>
                     <div className='flex flex-col w-11/12 mt-[12px] lg:mt-[35px]'>
                         <div className='mb-2 lg:mb-5'>
@@ -70,7 +70,7 @@ export default function About(){
 
                 <div className='bg-[#524BFC] flex flex-col px-3 py-6 justify-items-center md:px-3 md:py-[24px]   lg:px-8 lg:py-12 md:w-4/12 rounded-[20px]'>
                     <div>
-                        <img className='w-[69px] h-[69px] lg:w-auto lg:h-auto' src='assets/values.svg'/>
+                        <img className='w-auto h-[69px] lg:w-auto lg:h-[139px]' src='assets/growth.png'/>
                     </div>
                     <div className='flex flex-col w-11/12 mt-[12px] lg:mt-[35px]'>
                         <div className='mb-2 lg:mb-5'>
@@ -83,7 +83,7 @@ export default function About(){
 
                 <div className='bg-[#524BFC] flex flex-col px-3 py-6 justify-items-center md:px-3 md:py-[24px]   lg:px-8 lg:py-12 md:w-4/12 rounded-[20px]'>
                     <div>
-                        <img className='w-[69px] h-[69px] lg:w-auto lg:h-auto' src='assets/values.svg'/>
+                        <img className='w-auto h-[69px] lg:w-auto lg:h-[139px]' src='assets/user.png'/>
                     </div>
                     <div className='flex flex-col w-11/12 mt-[12px] lg:mt-[35px]'>
                         <div className='mb-2 lg:mb-5'>
