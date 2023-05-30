@@ -49,6 +49,7 @@ export default function Contact(){
               setAttach('')
             }
           })
+          setSubmitted(true);
 
     }
 
@@ -84,7 +85,7 @@ export default function Contact(){
                         </div>
 
                         <div className="flex w-5/6 md:w-11/12">
-                            <form className="flex flex-col gap-8 w-full">
+                            <form className="flex flex-col gap-8 w-full" onSubmit={handleSubmit}>
                                 <div className="flex flex-col">
                                         <label htmlFor="name" className="capitalize text-white lg:text-lg text-[12px]"> Name </label>
                                         <input type="text" id="name" onChange={(e) =>{setName(e.target.value)}}  className="border-b-2 outline-none text-lg border-white bg-transparent w-full" />
@@ -129,6 +130,20 @@ export default function Contact(){
 
                     </div>                   
             </div>
+            {submitted && (
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
+          <div className="bg-white p-4 rounded shadow">
+            <h2 className="text-xl aeonik-bold font-bold mb-4">Form Submitted!</h2>
+            <p>Your form has been successfully submitted.</p>
+            <button
+              className="bg-[#5F59F7] hover:bg-[#5F59F7] text-white font-bold py-2 px-4 mt-4 rounded"
+              onClick={() => setSubmitted(false)}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
 
 
 
