@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'aeonik';
+    src: url('/public/font/Aeonik-Regular.ttf') format('truetype');
+    /* You can also include other font formats like woff or woff2 if available */
+    /* src: url('/fonts/your-font.woff') format('woff'); */
+  }
+
+@font-face {
+    font-family: 'aeonik-bold';
+    src: url('/public/font/Aeonik-Bold.ttf') format('truetype');
+}
+
+
+.aeonik-bold{
+    font-family:'aeonik-bold', sans-serif;
+}
+
+  /* Define any font styles you want to apply using the custom font */
+  .aeonik {
+    font-family: 'aeonik', sans-serif;
+  }

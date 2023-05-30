@@ -5,7 +5,7 @@ function Button(props){
     return(
         <div className={props.className}>
             <Link href="/contact">
-                <p className="text-xs text-white  lg:text-lg">Get Started</p>
+                <p className="aeonik text-xs text-white  lg:text-lg">Get Started</p>
             </Link>
             
         </div>

@@ -4,7 +4,7 @@ function Footer (){
 
 
     return(
-        <div className="flex flex-row   items-center bg-[#524BFC] p-2 space-x-5 md:px-5 lg:pl-[57px] lg:pr-[28px]">
+        <div className="flex flex-row aeonik  items-center bg-[#524BFC] p-2 space-x-5 md:px-5 lg:pl-[57px] lg:pr-[28px]">
            <div className="lg:mr-64">
             <img src="assets/logo-putih.svg" alt="logo putih" className="w-auto h-12px lg:w-auto lg:h-auto"/>
             </div>

@@ -4,64 +4,54 @@ import { Transition } from '@headlessui/react'
 import Link from 'next/link';
 
 
-function Navbar() {
+function Navbar2() {
 
     const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='z-50 aeonik'>
-        <div className='w-full px-12 py-7 z-50'>
-            <div className='flex flex-row justify-between w-full '>
-                <div className='w-1/2'>
+    <nav className='aeonik'>
+        <div className='w-full px-12 py-7'>
+            <div className='flex flex-row align-middle justify-between w-full '>
+                <div className='w-1/2 flex items-center'>
                     <Link 
                     href='/home'
                     activeClass='home'
-                    to='home'
+                    to='/home'
                     smooth = {true}
                     offset={50}
                     duration={500}
-                    className='md:hidden'>
-                        <img src='assets/logo-putih.svg'/>
-                    </Link>
-                    <Link 
-                    href='/home'
-                    activeClass='home'
-                    to='home'
-                    smooth = {true}
-                    offset={50}
-                    duration={500}
-                    className='hidden md:block'>
+                    className=''>
                         <img src='assets/logo-ungu.svg'/>
                     </Link>
                 </div>
                 <div className='hidden md:flex md:flex-row w-1/2 justify-end space-x-8'>
                         <Link 
-                            href='/about'
+                            href="/about"
                             activeClass='about'
-                            to='about'
+                            to='/pages/about'
                             smooth = {true}
                             offset={50}
                             duration={500}
-                            className='text-xl text-white cursor-pointer'>
+                            className='text-xl cursor-pointer'>
                             About Us
                         </Link>
                         <Link 
-                            href='/contact'
+                        href="/contact"
                             activeClass='contact'
                             to='contact'
                             smooth = {true}
                             offset={50}
                             duration={500}
-                            className='text-xl text-white cursor-pointer'>
+                            className='text-xl cursor-pointer'>
                             Contact Us
                         </Link>
                 </div>
                 {/* mobile menu */}
-                <div className='flex justify md:hidden'>
+                <div className='flex md:hidden'>
 
                     <button 
                         onClick={() => setIsOpen(!isOpen)}
-                        className='inline-flex items-center text-white'
+                        className='inline-flex items-center text-white bg-[#5F59F7] px-2 py-2 rounded-md'
                         aria-controls ="mobile-menu"
                         aria-expanded = "false">
                         
@@ -153,4 +143,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar2
