@@ -29,7 +29,7 @@ export default function Contact(){
             attach,
         }
 
-        fetch('/api/contact', {
+        fetch('./api/contact', {
             method: 'POST',
             headers: {
               'Accept': 'application/json, text/plain, */*',
