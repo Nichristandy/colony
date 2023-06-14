@@ -157,7 +157,7 @@ export default function Home() {
         <div className='flex flex-col md:flex-row w-[80%] md:w-full md:items-center md:space-x-12'>
           <h1 className='aeonik-bold text-center font-bold text-lg text-white md:text-left md:text-xl md:w-[45%] md:pl-8 lg:text-5xl lg:leading-auto lg:pl-0 lg:w-[696px]'>Streamlined Platform for Your Convenient Property Management</h1>
           <div className='mt-[46px] md:mt-0'>
-            <img src='assets/banner.png' alt='photo' className='w-[261px] h-[322px] lg:w-auto lg:h-auto'/>
+            <img src='assets/banner2.png' alt='photo' className='w-[261px] h-[322px] lg:w-auto lg:h-auto'/>
           </div>
         </div>
       </div>
