@@ -25,9 +25,9 @@ export default function Home() {
       {/* video */}
       <div className='flex flex-col w-full items-center py-[30px] md:flex-row md:px-14 md:space-x-6 lg:py-[100px] lg:px-[96px]'>
         <div className='flex flex-col w-[75%] md:w-[6/12]'>
-          <h1 className='font-bold aeonik-bold text-lg text-center md:text-left lg:text-[48px]'>TITLE</h1>
+          <h1 className='font-bold aeonik-bold text-lg text-center md:text-left lg:text-[48px]'>Colony</h1>
           <div className='aeonik text-center text-xs leading-[14px] mt-2 md:text-left md:w-11/12 lg:text-2xl lg:leading-[24px] lg:mt-6'>
-            <p className='text-[#808080]'>Colony is a platform that helps Building Management to manage property maintenance programs and communication media that includes managers, unit, merchants and guests. 
+            <p className='text-[#808080]'>a platform that helps Building Management to manage property maintenance programs and communication media that includes managers, unit, merchants and guests. 
               established in 2022, we committed to be the answer for all your property management’s problems</p>
           </div>
         </div>

@@ -14,7 +14,6 @@ const Video = () =>{
       <video
         src="assets/video.mp4"
         className="w-full rounded-md"
-        onClick={togglePlay}
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
         controls
